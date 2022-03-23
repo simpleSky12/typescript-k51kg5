@@ -20,6 +20,10 @@ let func1: commonFunc = function (count: string, money: number): void {
   console.log(count, money);
 };
 
+let func111 = (count, money): commonFunc => {
+  console.log(count, money);
+};
+
 let func2: commonFunc2 = (count, money) => {
   console.log(count, money);
 };
